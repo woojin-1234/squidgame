@@ -1,3 +1,0 @@
-User-agent: *
-Allow:/
-Sitemap:https://haircolor-test.netlify.app/sitemap.xml
