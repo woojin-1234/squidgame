@@ -150,6 +150,9 @@ body {
   line-height: 1.53;
   color: #35465d;
 }
+.countImg{
+  font-size: 18px;
+}
 .number {
   margin-top: 10px;
   margin-bottom: 5px;
