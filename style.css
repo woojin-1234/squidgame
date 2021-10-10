@@ -133,19 +133,36 @@ body {
 .section {
     margin-top: 50px;
 }
-
+.main__ai__title {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
 .title {
   line-height: 1.67;
-  text-align: center;
   color: #35465d;
 }
 
 .subtitle {
   line-height: 1.53;
-  text-align: center;
   color: #35465d;
 }
-
+.number {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+.count__num {
+  font-weight: 700;
+}
+.timer {
+  color: rgb(129, 129, 129);
+  font-weight: 400;
+  font-size: 12px;
+}
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
   html {
@@ -171,11 +188,6 @@ body {
     text-align: center;
     color: #f73737;
     text-decoration: underline;
-}
-
-.youtube-icon {
-    width: 30px;
-    height: 27.262px;
 }
 
 .upload {
@@ -405,4 +417,5 @@ input:checked + label > .knob > i:before {
 
 .ad-banner {
     max-width: 320px;
+    margin: 0 auto;
 }
