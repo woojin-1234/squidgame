@@ -40,11 +40,10 @@
 
     gtag('config', 'G-6PZWBGEG4N');
     </script>
-     <script async src="javascript/timer.js" type="text/javascript"></script>
-     <script async src="javascript/counter.js" type="text/javascript"></script>
+    <script async src="javascript/timer.js" type="text/javascript"></script>
 </head>
 
-<body>
+<body onload="incrementCount(10)">
     <nav class="p-3 container navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand" href="https://haircolor-test.netlify.app">헤어색상 테스트</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,13 +72,12 @@
     <section class="section">
         <div class="main__ai__title">
             <h1 class="title">헤어색상 테스트</h1>
-            <h2 class="subtitle">얼굴로 보는 인공지능 헤어색상 테스트</h2>
-            <div class="main_container" id="id_main_container">
-                <div class="container_inner" id="display_div_id">
-                    명이 테스트에 참가했어요
-                </div>
+            <h2 class="subtitle">얼굴로 보는 인공지능 헤어색상 테스트</h2>   
+            <h2 id="timer">00</h2>
+            <div class="counter">
+                <a class="hitCounter" href="https://visitorshitcounter.com/" target="_blank" title="Hit counter" data-name="dd14a2f277542aa8488230efb97ad301|7|page|123|rgb(255, 255, 255);|rgb(53, 70, 93);|small|s-hit">Hit Counter</a><script>document.write("<script type='text/javascript' src='https://visitorshitcounter.com/js/hitCounter.js?v="+Date.now()+"'><\/script>");</script>
+                <span>명이 테스트에 참가했어요</span>
             </div>
-            <h2 class="timer"></h2>
         </div>
         <h2 class="sr-only">나는 어떤 헤어컬러가 어울릴까? 나에게 맞는 헤어컬러를 찾아보세요!</h2>
         <h3 class="sr-only">블랙, 블루, 퍼플, 핑크 염색이 잘 어울리는 연예인 사진 데이터로 학습한 인공지능이 나의 얼굴에 맞는 염색컬러를 찾아드립니다.

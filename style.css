@@ -93,11 +93,18 @@ body {
   margin: auto;
   padding: 10px;
 }
-
+.main__ai__title span{
+  font-size: 18px;
+}
+#timer{
+  color: rgb(129, 129, 129);
+  font-weight: 400;
+  font-size: 12px;
+}
 .try-again-btn {
   border-radius: 40px;
   border: solid 1.5px #35465d;
-  background-color: #35465d;
+  background-color: rgb(53, 70, 93);
 }
 
 .try-again-text {
@@ -161,11 +168,6 @@ body {
 }
 .count__num {
   font-weight: 700;
-}
-.timer {
-  color: rgb(129, 129, 129);
-  font-weight: 400;
-  font-size: 12px;
 }
 /* On screens that are 600px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
