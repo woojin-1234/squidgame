@@ -178,8 +178,9 @@ body {
         font-size: 2rem;
     }
 }
-
-
+#adModalLabel{
+  margin: 0 auto;
+}
 .youtube-link {
     font-size: 1.5rem;
     line-height: 1.71;
