@@ -217,7 +217,10 @@ body {
     color: #35465d;
     margin: 0 auto;
 }
-
+.ad-banner{
+  max-width: 320px;
+  margin: 0 auto;
+}
 .footer {
     background-color: initial;
     color: initial;
