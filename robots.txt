@@ -1,2 +1,3 @@
 User-agent: *
 Allow:/
+Sitemap: https://squidgame-test.netlify.app/sitemap.xml
