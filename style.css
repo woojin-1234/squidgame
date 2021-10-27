@@ -96,6 +96,14 @@ body {
 .main__ai__title span{
   font-size: 18px;
 }
+.number {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.count__num {
+  font-weight: 700;
+}
 #timer{
   color: rgb(129, 129, 129);
   font-weight: 400;
@@ -218,7 +226,7 @@ body {
 .bar-container {
   height: 2.7rem;
 }
-.블랙-box {
+.악함-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -227,7 +235,7 @@ body {
   width: 100%;
   background-color: rgba(0, 0, 0, 0.2);
 }
-.블랙-bar {
+.악함-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -236,58 +244,160 @@ body {
   background-color: rgba(0, 0, 0, 1);
 }
 
-.블루-box {
+.착함-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(27, 175, 234, 0.2);
+  background-color: rgba(26, 175, 234, 0.2);
 }
-.블루-bar {
+.착함-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgba(27, 175, 234, 1);
+  background-color: rgb(27, 175, 234);
 }
 
-.퍼플-box {
+.힘-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(251, 59, 225, 0.2);
+  background-color: rgba(219, 59, 251, 0.2);
 }
-.퍼플-bar {
+.힘-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgba(251, 59, 225, 1);
+  background-color: rgb(219, 60, 251);
 }
 
-.핑크-box {
+.교활-box {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(235, 166, 190, 0.2);
+  background-color: rgba(250, 2, 155, 0.2);
 }
-.핑크-bar {
+.교활-bar {
   position: absolute;
   top: 0;
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgba(235, 166, 190, 1);
+  background-color: rgb(250, 2, 155);
+}
+.돌아이-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(43, 250, 2, 0.2);
+}
+.돌아이-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(43, 250, 2);
+}
+.불신-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(2, 242, 250, 0.2);
+}
+.불신-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(2, 242, 250);
+}
+.무뚝뚝-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(250, 246, 2, 0.2);
+}
+.무뚝뚝-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(250, 246, 2);
+}
+.엘리트-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(250, 122, 2, 0.2);
+}
+.엘리트-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(250, 122, 2);
+}
+.순수-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(89, 2, 250, 0.2);
+}
+.순수-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(89, 2, 250);
+}
+.비호감-box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  width: 100%;
+  background-color: rgba(250, 2, 2, 0.2);
+}
+.비호감-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 2rem;
+  border-radius: 10px;
+  background-color: rgb(250, 2, 2);
 }
 .percent-text {
   font-size: 1rem;
@@ -308,35 +418,77 @@ body {
 
 
 .color-explain {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 
-.블랙-color-title {
-    color: #000;
+.착함-color-title {
+    color: #1bafea;
 }
-.블랙-color-celeb {
-    color: #000;
+.착함-color-celeb {
+    color: #1bafea;
     font-size: 1.2rem;
 }
-.퍼플-color-title {
-    color: #ff0aff;
+.악함-color-title {
+  color: #000;
 }
-.퍼플-color-celeb {
-    color: #ff0aff;
+.악함-color-celeb {
+  color: #000;
+  font-size: 1.2rem;
+}
+.힘-color-title {
+  color: #db3cfb;
+}
+.힘-color-celeb {
+  color: #db3cfb;
+  font-size: 1.2rem;
+}
+.교활-color-title {
+  color: #fa029b;
+}
+.교활-color-celeb {
+  color: #fa029b;
+  font-size: 1.2rem;
+}
+.돌아이-color-title {
+  color: #2bfa02;
+}
+.돌아이-color-celeb {
+  color: #2bfa02;
+  font-size: 1.2rem;
+}
+.불신-color-title {
+  color: #02f2fa;
+}
+.불신-color-celeb {
+  color: #02f2fa;
+  font-size: 1.2rem;
+}
+.무뚝뚝-color-title {
+  color: #faf602;
+}
+.무뚝뚝-color-celeb {
+  color: #faf602;
+  font-size: 1.2rem;
+}
+.엘리트-color-title {
+    color: #fa7a02;
+}
+.엘리트-color-celeb {
+    color: #fa7a02;
     font-size: 1.2rem;
 }
-.블루-color-title {
-    color: #548dd4;
+.순수-color-title {
+    color: #5902fa;
 }
-.블루-color-celeb {
-    color: #548dd4;
+.순수-color-celeb {
+    color: #5902fa;
     font-size: 1.2rem;
 }
-.핑크-color-title {
-    color: #e56995;
+.비호감-color-title {
+    color: #fa0202;
 }
-.핑크-color-celeb {
-    color: #e56995;
+.비호감-color-celeb {
+    color: #fa0202;
     font-size: 1.2rem;
 }
 
