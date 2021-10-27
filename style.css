@@ -338,7 +338,7 @@ body {
   height: 2rem;
   border-radius: 10px;
   width: 100%;
-  background-color: rgba(250, 246, 2, 0.2);
+  background-color: rgba(250, 204, 2, 0.2);
 }
 .무뚝뚝-bar {
   position: absolute;
@@ -346,7 +346,7 @@ body {
   left: 0;
   height: 2rem;
   border-radius: 10px;
-  background-color: rgb(250, 246, 2);
+  background-color: rgb(250, 204, 2);
 }
 .엘리트-box {
   position: absolute;
@@ -464,10 +464,10 @@ body {
   font-size: 1.2rem;
 }
 .무뚝뚝-color-title {
-  color: #faf602;
+  color: #facc02;
 }
 .무뚝뚝-color-celeb {
-  color: #faf602;
+  color: #facc02;
   font-size: 1.2rem;
 }
 .엘리트-color-title {
